@@ -1,5 +1,7 @@
 # Trello Ticket Creator
 
+![Python](https://img.shields.io/badge/language-Python-blue.svg)
+
 Este proyecto permite crear tickets en Trello a partir de un archivo JSON. El script lee la información de las tareas desde el archivo JSON y crea las tarjetas correspondientes en Trello, incluyendo detalles como la descripción de la tarea, checklist, etiquetas y más.
 
 ## Requisitos Previos
@@ -41,6 +43,7 @@ Antes de ejecutar el script, asegúrate de tener los siguientes elementos config
     ```plaintext
     TRELLO_API_KEY=your_trello_api_key
     TRELLO_TOKEN=your_trello_token
+    TRELLO_BOARD=your_trello_board
     TRELLO_LIST=your_trello_list_id
     ```
 
